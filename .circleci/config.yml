@@ -1,0 +1,9 @@
+version: 2.1
+
+jobs:
+  build:
+    machine:
+      resource_class: large
+      image: ubuntu-2204:2022.04.1
+    steps:
+      - run: lscpu
